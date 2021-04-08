@@ -1,5 +1,6 @@
 const server = require('./api/server');
 
-const port = 5000;
+server.listen(8080, () => {
+    console.log("server started at localhost:8080")
+})
 
-// START YOUR SERVER HERE
